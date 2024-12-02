@@ -1,0 +1,89 @@
+/* General *//* Fondo de la página */
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Times New Roman', Times, serif, sans-serif;
+    background-image: url('https://media.glamour.mx/photos/6543ff30a46664d092f6fe6e/16:9/w_2560%2Cc_limit/tendencias-otono-invierno-2023.jpg'); /* Ruta de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position:center; /* Centra la imagen en la página */
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+/* Header */
+header {
+    background-image: url('https://www.fab.com.co/images/h0nadbhvm6m4/bae182b1ff9f62d821354e6079921866/c664d08817cf934cb8f99e005821df97/aHR0cHNfX19hc3NldC1hbWVyaWNhcy51bmlsZXZlcnNvbHV0aW9ucy5jb21fY29udGVudF9kYW1fdW5pbGV2ZXJfZGlydF9pc19nb29kX2dsb2JhbF9zcGFuaXNoX29ubGluZV9hZHNfaXN0b2NrLTExOTYwNjIwMC0xOS5wbmc/1200w-894h/%C2%BFc%C3%B3mo-mantener-el-color-de-la-ropa%3F-%7C-fab.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen dentro del header */
+    height: 150px; /* Altura del header */
+    display: flex; /* Para centrar el texto */
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    color: rgb(195, 10, 10); /* Texto en blanco para mejor contraste */
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 5.5em;
+}
+
+/* Formulario */
+.search-section {
+    margin: 20px auto;
+}
+
+form {
+    background-color: rgb(211, 44, 44);
+    padding: 15px;
+    border-radius: 70px;
+    display: inline-block;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+form input {
+    border: none;
+    border-radius: 88px;
+}
+
+form button {
+    background-color: rgb(214, 185, 20);
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 88px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(129, 224, 21);
+}
+
+/* Lista de productos */
+.product-list {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item.product-item {
+    background-color: rgba(243, 253, 246, 0.8); /* Fondo blanco semitransparente */
+    background-image: url('https://acdn.mitiendanube.com/stores/176/993/products/511-b6c7da202f0a4e443716779474129812-1024-1024.png'); /* Ruta de la imagen */
+    background-size: cover; /* Escala para cubrir todo el card */
+    background-repeat: no-repeat; /* Evita repeticiones */
+    border: 1px solid rgb(20, 20, 20); /* Borde decorativo */
+    border-radius: 30px; /* Bordes redondeados */
+    color: rgb(34, 19, 0); /* Color del texto */
+    padding: 15px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo */
+    width: 200px; /* Tamaño fijo */
+    text-align: center; /* Centra el texto */
+}
