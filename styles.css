@@ -76,7 +76,7 @@ form button:hover {
 
 .product-item.product-item {
     background-color: rgba(243, 253, 246, 0.8); /* Fondo blanco semitransparente */
-    background-image: url('https://acdn.mitiendanube.com/stores/176/993/products/511-b6c7da202f0a4e443716779474129812-1024-1024.png'); /* Ruta de la imagen */
+    background-image: url('https://img.freepik.com/vector-gratis/tema-fondo-abstracto-blanco_23-2148825506.jpg?semt=ais_hybrid'); /* Ruta de la imagen */
     background-size: cover; /* Escala para cubrir todo el card */
     background-repeat: no-repeat; /* Evita repeticiones */
     border: 1px solid rgb(20, 20, 20); /* Borde decorativo */
